@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1000px;
+    width: 100%;
+    background: url('../img/back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#geral-page{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+#whats{
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+}
+
+#whats img{
+    width: 100px;
+}
+
+header{
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+
+#header-logo{
+    width: 100%;
+    padding: 10px;
+}
+
+#header-logo img{
+    height: 250px;
+    display: block;
+    margin: 2px auto;
+}
+
+hr{
+    border: 4px solid white;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+#header-menu{
+    width: 70%;
+    height: 120px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    justify-content:flex-end;
+    
+}
+
+nav ul li{
+    padding: 20px;
+    margin: 15px;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'Dosis', sans-serif;
+}
+
+section{
+    height: 400px;
+    width: 100%;
+    margin: 30px;
+}
+
+#banner h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 6.1em;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    margin-top: 65px;
+    /* position:fixed; */
+    bottom: 0;
+}
+
+footer button{
+    display: block;
+    margin: 0 auto;
+    background-color: #d483a3;
+    border-radius: 8%;
+    border: 3px solid white;
+    height: 65px;
+}
+
+button a{
+    font-size: 2.6em;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* QUEM SOMOS */
+
+#quem-somos-nos{
+    height: 400px;
+    width: 100%;
+    margin: 30px;
+    display: flex;
+}
+article{
+    width: 100%;
+    height: 380px;    
+}
+
+article h1{
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+article p{
+    font-size: 1.4em;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    padding: 10px;
+    background-color: rgba(251, 249, 249, 0.2);
+}
+
+#image-artigo img{
+    height: 500px;
+    float: right;
+    display: flex;
+    margin: 0px auto;
+}
+
+/* PEDIDOS */
+
+#tab-pedido{
+    height: 400px;
+    width: 90%;
+    padding: 15px;
+    margin: 20px;
+}
+
+#tab-pedido h1{
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive
+}
+
+#tabela-pedido form{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.2em;
+    background-color: rgba(251, 249, 249, 0.4);
+
+}
+
+
+/* media queries */
+
+/* @media screen and (max-width: 450px){
+    header{height: 300px;}
+    #header-logo{flex-direction:column;}
+    #header-logo img{height:100px;}
+    #header-menu{width: 85%; height: 90px; margin-top: 20px;}
+    nav ul{justify-content:flex-end;}
+    nav ul li{padding: 3px; margin: 5px;}
+    nav ul li a{font-size: 1em;}
+    hr{width: 65%; margin-top: 15px;}
+    section{height: 300px; margin: 5px;}
+    #banner {flex-direction: column; }
+    #banner h1{font-size: 3.2em; margin-right: 15px; padding: 15px;}
+    #whats{flex-direction: column;}
+
+    
+} */
